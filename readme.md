@@ -32,6 +32,7 @@ These shared libraries are stored in /usr/lib/ . I recommend transferring them o
 Set up a netcat listener on port 4444 on your workstation to receive the files:
 
 $ nc -l -p 4444 > libswm.so
+
 $ nc -l -p 4444 > libswfile.so
 
 ## Compiling and linking
