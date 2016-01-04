@@ -24,7 +24,9 @@ You may then telnet or SSH to the switch and will have a root shell.
 These shared libraries are stored in /usr/lib/ . I recommend transferring them off of the switch using netcat:
 
 &#35; cd /usr/lib
+
 &#35; nc <your computer IP> 4444 < libswm.so.1.4.0
+
 &#35; nc <your computer IP> 4444 < libswfile.so
 
 Set up a netcat listener on port 4444 on your workstation to receive the files:
